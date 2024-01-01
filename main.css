@@ -182,10 +182,93 @@ h4{
     box-shadow: 0 0 20px 0 rgba(0,0,0,20);
 }
 
+.container {
+    position: relative;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-top: 8%;
+    text-align: center;
+}
+
+.container .card {
+    width: 308px;
+    position: relative;
+    height: 5%;
+    background: #f0f0f0;
+    margin: 30px 10px;
+    padding: 20px 15px ;
+    display: flex;
+    flex-direction:column ;
+    box-shadow: 0.5px 10px #e6e6e6;
+    transition: 0.3s ease-in-out;
+    margin-top: 5%;
+}
+
+.container.card.imgBx {
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -60px;
+    left: 20px;
+    box-shadow: 0px 5px 20px rgba (0,0,0,1.2);
+}
+.container.card.imgBx img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+imgBx:hover img{
+    transform: scale(1.1)
+}
+
+    .summary-table{
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.45cm;
+        min-width: 400px;
+        border-radius: 5px 5px 0 0;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        
+}
+
+    .summary-table thead tr {
+        background-color: #224731;
+        text-align: center;
+        color: #eee;
+        font-weight: bold;
+    }
+
+    .summary-table th,
+    .summary-table td {
+        padding: 12px 15px;
+    }
+
+    .summary-table tbody tr{
+        border-bottom: 1px solid#f0f0f0;
+    }
+
+    .summary-table tbody tr:nth-of-type(even) {
+        background-color: #a7cfad;
+    }
+
+    .summary-table tbody tr:last-of-type {
+        border-bottom: 2px solid #476352;
+
+    }
+
+    .summary-table tbody tr.active-row {
+        font-weight: bold;
+        color: #224731;
+    }
+
+
 @media(max-width:700px){
     .row{
         flex-direction: column;
     }
 }
-
-
