@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sri Lankan Leopard</title>
-    <link rel="stylesheet" href="css\leopard.css">
+    <link rel="stylesheet" href="\css\leopard.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Mulish:wght@200&display=swap"
@@ -15,103 +15,131 @@
         integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
 </head>
 
-</head>
-
 <body>
     <!-- Page Navigation -->
-    <nav>
-        <!-- <a href="leopard.html"><img src="/images/logo.png"></a> -->
-        <div class="nav-links" id="navLinks">
-            <i class="fa fa-times" onclick="hideMenu()"></i>
-            <ul>
-                <li><a href="/index.html">Home</a></li>
+    <section class="header">
+        <nav>
+            <a href="leopard.html"><img src="/images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
 
-                <li><a href="/pages/intro.html">Introduction</a></li>
+                    <li><a href="/pages/intro.html">Introduction</a></li>
 
-                <li><a href="/pages/dept.html">Department of Wildlife Conservation</a></li>
+                    <li><a href="/pages/dept.html">Department of Wildlife Conservation</a></li>
 
-                <li><a href="/pages/leopard.html">Leopard</T></a></li>
+                    <li><a href="/pages/leopard.html">Leopard</T></a></li>
 
-                <li><a href="/pages/animals.html">Animals in Sri Lanka</T></a></li>
+                    <li><a href="/pages/animals.html">Animals in Sri Lanka</T></a></li>
 
-                <li><a href="/pages/elephant.html">Wild Elephant</a></li>
-            </ul>
-        </div>
-        <i class="fa fa-bars" onclick="showMenu()"></i>
-    </nav>
-<body>
-    <header>
-        <h1>Sri Lankan Leopard</h1>
-    </header>
+                    <li><a href="/pages/elephant.html">Wild Elephant</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
 
-    <section id="venues">
-        <h2>Leopard Habitats in Sri Lanka</h2>
-        <p>Explore the diverse landscapes where Sri Lankan leopards thrive.</p>
-
-        <!-- Venue 1 -->
-        <div>
-            <img src="\images\yala-leopard2.jpg" alt="yala">
-            <p><strong>Yala National Park</strong></p>
-            <p>Located in the southeastern part of the island, Yala National Park is renowned for its rich 
-                biodiversity and is a prime habitat for Sri Lankan leopards.</p>
+        <div clas="text-box">
+            <h1>Sri Lankan Leopard</h1>
+            <p>The Sri Lankan leopard is a leopard subspecies native to Sri Lanka. It was first
+                described in 1956 by Sri Lankan zoologist Paules Edward Pieris Deraniyagala.
+            </p>
         </div>
 
-        <!-- Venue 2 -->
-        <div>
-            <img src="\images\yala-leopard.jpg" alt="Wilpattu">
-            <p><strong>Wilpattu National Park</strong></p>
-            <p>As the largest national park in Sri Lanka, Wilpattu is home to a significant population of leopards. Its varied ecosystems provide an ideal environment for these magnificent creatures.</p>
-        </div>
+        <section id="venues">
+            <h2>Leopard Habitats in Sri Lanka</h2>
+            <p>Explore the diverse landscapes where Sri Lankan leopards thrive.</p>
 
-        <!-- Venue 3 -->
-        <div>
-            <img src="\images\horton-plains01.jpg" alt="Leopard Habitat 3">
-            <p><strong>Horton Plains National Park</strong></p>
-            <p>Nestled in the central highlands, Horton Plains is known for its montane grasslands and cloud forests. It serves as another important habitat for the Sri Lankan leopard.</p>
-        </div>
-    </section>
+            <!-- Venue 1 -->
+            <div class="container">
+                <img src="\images\yala-leopard2.jpg" alt="yala">
+                <div class="overlay">
+                    <div class="content">
+                        <h3>Yala National Park</h3>
+                        <p>Located in the southeastern part of the island, Yala National Park is renowned for its rich
+                            biodiversity and is a prime habitat for Sri Lankan leopards.
+                        </p>
+                    </div>
+                </div>
+            </div>
 
-    <section id="threats">
-        <h2>Threats to Sri Lankan Leopards</h2>
+            <!-- Venue 2 -->
+            <div class="container">
+                <img src="\images\yala-leopard.jpg" alt="Wilpattu">
+                <div class="overlay">
+                    <div class="content">
+                        <h3>Wilpattu National Park</h3>
+                        <p>As the largest national park in Sri Lanka, Wilpattu is home to a significant population of
+                            leopards. Its varied ecosystems provide an ideal environment for these magnificent creatures.
+                        </p>
+                    </div>
+                </div>
+            </div>
 
-        <!-- Threat 1 -->
-        <div>
-            <img src="threat1.jpg" alt="Threat 1">
-            <p><strong>Human-Wildlife Conflict</strong></p>
-            <p>Human-leopard conflicts arise due to habitat encroachment. This can lead to leopard attacks on livestock, resulting in retaliatory killings. Conservation efforts include community awareness and the implementation of protective measures.</p>
-            <p><a href="conservation-institution1.html" target="_blank">Learn more about leopard conservation in Sri Lanka</a></p>
-        </div>
 
-        <!-- Threat 2 -->
-        <div>
-            <img src="threat2.jpg" alt="Threat 2">
-            <p><strong>Illegal Wildlife Trade</strong></p>
-            <p>Leopards face threats from illegal wildlife trade for their skins and body parts. Conservation initiatives involve law enforcement, public education, and support for anti-poaching efforts.</p>
-            <p><a href="conservation-institution2.html" target="_blank">Support a leopard conservation institution in Sri Lanka</a></p>
-        </div>
-    </section>
+            <!-- Venue 3 -->
+            <div class="container">
+                <img src="\images\horton-plains01.jpg" alt="horton plains">
+                <div class="overlay">
+                    <div class="content">
+                        <h3>Wilpattu National Park</h3>
+                        <p>Nestled in the central highlands, Horton Plains is known for its montane grasslands and cloud
+                            forests. It serves as another important habitat for the Sri Lankan leopard.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
 
-    <footer>
-        <p>&copy; 2024 Sri Lankan Leopard Conservation. All rights reserved.</p>
-    </footer>
+        <section id="threats">
+            <h2>Threats to Sri Lankan Leopards</h2>
+
+            <!-- Threat 1 -->
+            <div class="banner-id">
+                <img src="\images\threat2.jpeg" alt="Threat 1">
+                <p><strong>Human-Wildlife Conflict</strong></p>
+                <p>Human-leopard conflicts arise due to habitat encroachment. This can lead to leopard attacks on
+                    livestock, resulting in retaliatory killings. Conservation efforts include community awareness
+                    and the implementation of protective measures.
+                </p>
+            </div>
+
+            <!-- Threat 2 -->
+            <div class="banner-id">
+                <img src="\images\threat3.jpg">
+                <!-- <div class="banner-text"> -->
+                    <h4>Illegal Wildlife Trade</h4>
+                    <p>Leopards face threats from illegal wildlife trade for their skins and body parts. Conservation
+                        initiatives involve law enforcement, public education, and support for anti-poaching efforts.
+                    </p>
+                </div>
+            </div>
+            <p><a href="https://www.leopocon.org/" target="_blank">Help save a leopard.</a></p>
+
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Sri Lankan Leopard Conservation. All rights reserved.</p>
+        </footer>
 </body>
 
 </html>
 
 
-    
-    <!-------JavaScript for toggle menu-------->
-    <script>
-        var navLinks = document.getElementById("navLinks");
-        function showMenu() {
-            navLinks.style.right = "0"
-        }
-        var navLinks = document.getElementById("navLinks");
-        function hideMenu() {
-            navLinks.style.right = "-200px";
 
-        }
-    </script>
+<!-------JavaScript for toggle menu-------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0"
+    }
+    var navLinks = document.getElementById("navLinks");
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+
+    }
+</script>
 
 </body>
 

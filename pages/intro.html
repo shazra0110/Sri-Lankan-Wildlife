@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SL Wildlife Intro</title>
-    <link rel="stylesheet" href="css/intro.css"
+    <link rel="stylesheet" href="/css/intro.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Mulish:wght@200&display=swap"
@@ -19,40 +19,41 @@
 
 <body>
     <div class="header">
-
     <!-- Page Navigation -->
-    <nav>
-        <!-- <a href="index.html"><img src="/images/logo.png"></a> -->
-        <div class="nav-links" id="navLinks">
-            <i class="fa fa-times" onclick="hideMenu()"></i>
-            <ul>
-                <li><a href="/index.html">Home</a></li>
+        <nav>
+            <a href="index.html"><img src="/images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
 
-                <li><a href="/pages/intro.html">Introduction</a></li>
+                    <li><a href="/pages/intro.html">Introduction</a></li>
 
-                <li><a href="/pages/dept.html">Department of Wildlife Conservation</a></li>
+                    <li><a href="/pages/dept.html">Department of Wildlife Conservation</a></li>
 
-                <li><a href="/pages/leopard.html">Leopard</T></a></li>
+                    <li><a href="/pages/leopard.html">Leopard</T></a></li>
 
-                <li><a href="/pages/animals.html">Animals in Sri Lanka</T></a></li>
+                    <li><a href="/pages/animals.html">Animals in Sri Lanka</T></a></li>
 
-                <li><a href="/pages/elephant.html">Wild Elephant</a></li>
-            </ul>
-        </div>
-        <i class="fa fa-bars" onclick="showMenu()"></i>
-    </nav>
+                    <li><a href="/pages/elephant.html">Wild Elephant</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
 
-    <!---------Introduction----------->
+        <!---------Introduction----------->
 
-    <section id="intro">
         <div class="text-box">
-        <h1>Introduction</h1>
-        <p>Explore Sri Lanka's diverse wildlife havens—Sinharaja,
-            Udawala, Kumana—home to leopards, elephants, and unique flora. A nature lover's paradise.</p>
-        
-            <div class="container">
+            <h1>Introduction</h1>
+            <p>Explore Sri Lanka's diverse wildlife havens—Sinharaja,
+                Udawala, Kumana—home to leopards, elephants, and unique
+                flora. A nature lover's paradise.
+            </p>
+        </div>
+
+        <div class="container">
             <div class="card">
-                <div class="sub-col">
+                <div class="sub-col">           
                     <a href="#">
                         <img src="/images/i6.jpg"></a>
                     <h2>Udawalawa</h2>
@@ -91,25 +92,62 @@
                     </p>
                 </div>
             </div>
-
         </div>
     </div>
-    </section>
+    <section id="summary-table">
 
-    </div>
+        <h2>Summary</h2>
 
-    <!-------JavaScript for toggle menu-------->
-    <script>
-        var navLinks = document.getElementById("navLinks");
-        function showMenu() {
-            navLinks.style.right = "0"
-        }
-        var navLinks = document.getElementById("navLinks");
-        function hideMenu() {
-            navLinks.style.right = "-200px";
+        <table>
+            <thead>
+                <tr>
+                    <th>Places</th>
+                    <th>District</th>
+                    <th>Area</th>
+                    <th>Known For</th>
+                    <th>Animals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Udawalawa</td>
+                    <td>Kandy</td>
+                    <td>500 sqm</td>
+                    <td>jvkdj</td>
+                    <td>Leopards</td>
+                </tr>
+                <tr>
+                    <td>Sinharaja</td>
+                    <td>Kandy</td>
+                    <td>500 sqm</td>
+                    <td>jvkdj</td>
+                    <td>Leopards</td>
+                </tr>
+                <tr>
+                    <td>Kumana</td>
+                    <td>Kandy</td>
+                    <td>500 sqm</td>
+                    <td>jvkdj</td>
+                    <td>Leopards</td>
+                </tr>
+            </tbody>
+        </table>
+</tr>
+</section>
 
-        }
-    </script>
+
+<!-------JavaScript for toggle menu-------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0"
+    }
+    var navLinks = document.getElementById("navLinks");
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+
+    }
+</script>
 
 </body>
 

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SL Wildlife Intro</title>
-    <link rel="stylesheet" href="css\animals.css">
+    <link rel="stylesheet" href="\css\animals.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Mulish:wght@200&display=swap"
@@ -18,9 +18,11 @@
 </head>
 
 <body>
+    <section>
     <!-- Page Navigation -->
+    <section class="header">
     <nav>
-        <a href="index.html"><img src="images/logo.png"></a>
+        <a href="index.html"><img src="/images/logo.png"></a>
         <div class="nav-links" id="navLinks">
             <i class="fa fa-times" onclick="hideMenu()"></i>
             <ul>
@@ -39,7 +41,34 @@
         </div>
         <i class="fa fa-bars" onclick="showMenu()"></i>
     </nav>
+    <div class="text-box">
+        <h1>Indigenous animals in Sri Lanka</h1>
+        <p>Sri Lanka, an island nation located in the Indian Ocean, boasts a rich 
+            biodiversity with a variety of indigenous animals. These creatures are uniquely 
+            adapted to the diverse ecosystems found across the country. Here you can find more about such significant endemic species 
+            of Sri Lanka.
+        </p>
+    </div>
+</section>
 
+<section>
+    <div clas="flip-box">
+        <div class="flip-box-inner">
+            <div class="flip-box-front">
+                <img src="/images/monkey.png" style="width: 300px; height: 300px;">
+            </div>
+            <div class="flip-box-back">
+                <h1>Purple-faced Langur</h1>
+                <p>With its vibrant, almost mystical appearance, the purple-faced langur is 
+                    a fascinating endemic primate found in the rainforests of Sri Lanka.
+                    This leaf-eating monkey has a distinguished purple-face and a long tail,
+                    and it plays a vital role in dispersing seeds and maintaining forest ecosystem. 
+
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
     
     <!-------JavaScript for toggle menu-------->
     <script>
