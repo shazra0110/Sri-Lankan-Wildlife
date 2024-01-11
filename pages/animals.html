@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SL Wildlife Intro</title>
+    <title>Sri Lankan Wildlife</title>
     <link rel="stylesheet" href="\css\animals.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,69 +19,94 @@
 
 <body>
     <section>
-    <!-- Page Navigation -->
-    <section class="header">
-    <nav>
-        <a href="index.html"><img src="/images/logo.png"></a>
-        <div class="nav-links" id="navLinks">
-            <i class="fa fa-times" onclick="hideMenu()"></i>
-            <ul>
-                <li><a href="/index.html">Home</a></li>
+        <!-- Page Navigation -->
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="/images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="/index.html">Home</a></li>
 
-                <li><a href="/pages/intro.html">Introduction</a></li>
+                        <li><a href="/pages/intro.html">Introduction</a></li>
 
-                <li><a href="/pages/dept.html">Department of Wildlife Conservation</a></li>
+                        <li><a href="/pages/dept.html">Department of Wildlife Conservation</a></li>
 
-                <li><a href="/pages/leopard.html">Leopard</T></a></li>
+                        <li><a href="/pages/leopard.html">Leopard</T></a></li>
 
-                <li><a href="/pages/animals.html">Animals in Sri Lanka</T></a></li>
+                        <li><a href="/pages/animals.html">Indigenous Animals</T></a></li>
 
-                <li><a href="/pages/elephant.html">Wild Elephant</a></li>
-            </ul>
-        </div>
-        <i class="fa fa-bars" onclick="showMenu()"></i>
-    </nav>
-    <div class="text-box">
-        <h1>Indigenous animals in Sri Lanka</h1>
-        <p>Sri Lanka, an island nation located in the Indian Ocean, boasts a rich 
-            biodiversity with a variety of indigenous animals. These creatures are uniquely 
-            adapted to the diverse ecosystems found across the country. Here you can find more about such significant endemic species 
-            of Sri Lanka.
-        </p>
-    </div>
-</section>
-
-<section>
-    <div clas="flip-box">
-        <div class="flip-box-inner">
-            <div class="flip-box-front">
-                <img src="/images/monkey.png" style="width: 300px; height: 300px;">
-            </div>
-            <div class="flip-box-back">
-                <h1>Purple-faced Langur</h1>
-                <p>With its vibrant, almost mystical appearance, the purple-faced langur is 
-                    a fascinating endemic primate found in the rainforests of Sri Lanka.
-                    This leaf-eating monkey has a distinguished purple-face and a long tail,
-                    and it plays a vital role in dispersing seeds and maintaining forest ecosystem. 
-
+                        <li><a href="/pages/elephant.html">Wild Elephant</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>Indigenous animals in Sri Lanka</h1>
+                <p>Sri Lanka, an island nation located in the Indian Ocean, boasts a rich
+                    biodiversity with a variety of indigenous animals. These creatures are uniquely
+                    adapted to the diverse ecosystems found across the country. Here you can find more about such
+                    significant endemic species
+                    of Sri Lanka.
                 </p>
             </div>
-        </div>
-    </div>
-</section>
-    
-    <!-------JavaScript for toggle menu-------->
-    <script>
-        var navLinks = document.getElementById("navLinks");
-        function showMenu() {
-            navLinks.style.right = "0"
-        }
-        var navLinks = document.getElementById("navLinks");
-        function hideMenu() {
-            navLinks.style.right = "-200px";
+        </section>
 
-        }
-    </script>
+        <section>
+            <div class="row">
+                <div class="sub-col">
+
+                    <div clas="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="/images/monkey.png" style="width: 300px; height: 300px;">
+                            </div>
+                            <div class="flip-box-back">
+                                <h1>Purple-faced Langur</h1>
+                                <p>With its vibrant, almost mystical appearance, the purple-faced langur is
+                                    a fascinating endemic primate found in the rainforests of Sri Lanka.
+                                    This leaf-eating monkey has a distinguished purple-face and a long tail,
+                                    and it plays a vital role in dispersing seeds and maintaining forest ecosystem.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-col">
+                    <div clas="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="/images/blue-magpie.jpg" style="width: 300px; height: 300px;">
+                            </div>
+                            <div class="flip-box-back">
+                                <h1>Lanka Blue-Magpie</h1>
+                                <p>The Sri Lanka blue magpie or Ceylon magpie (Urocissa ornata) is a brightly coloured
+                                    member of the family Corvidae,[2] found exclusively in Sri Lanka. This species
+                                    is adapted to hunting in the dense canopy, where it is highly active and nimble.
+                                    Its flight is rather weak, though, and is rarely used to cover great distances.
+                                    In spite of the Sri Lanka blue magpie's ability to adapt to the presence of humans,
+                                    it is classified as vulnerable to extinction[1] due to the fragmentation and
+                                    destruction
+                                    of its habitat of dense primary forest in the wet zone of southern Sri Lanka
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-------JavaScript for toggle menu-------->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu() {
+                navLinks.style.right = "0"
+            }
+            var navLinks = document.getElementById("navLinks");
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+
+            }
+        </script>
 
 </body>
 

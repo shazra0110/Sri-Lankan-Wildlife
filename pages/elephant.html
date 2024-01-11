@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SL Wildlife Elephant</title>
-    <link rel="stylesheet" href="css\elephant.css">
+    <link rel="stylesheet" href="\css\elephant.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Mulish:wght@200&display=swap"
@@ -18,29 +18,40 @@
 </head>
 
 <body>
-    <!-- Page Navigation -->
-    <nav>
-        <a href="index.html"><img src="images/logo.png"></a>
-        <div class="nav-links" id="navLinks">
-            <i class="fa fa-times" onclick="hideMenu()"></i>
-            <ul>
-                <li><a href="/index.html">Home</a></li>
+    <section>
+        <section class="header">
+            <!-- Page Navigation -->
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="/index.html">Home</a></li>
 
-                <li><a href="/pages/intro.html">Introduction</a></li>
+                        <li><a href="/pages/intro.html">Introduction</a></li>
 
-                <li><a href="/pages/dept.html">Department of Wildlife Conservation</a></li>
+                        <li><a href="/pages/dept.html">Department of Wildlife Conservation</a></li>
 
-                <li><a href="/pages/leopard.html">Leopard</T></a></li>
+                        <li><a href="/pages/leopard.html">Leopard</T></a></li>
 
-                <li><a href="/pages/animals.html">Animals in Sri Lanka</T></a></li>
+                        <li><a href="/pages/animals.html">Indigenous animals in Sri Lanka</T></a></li>
 
-                <li><a href="/pages/elephant.html">Wild Elephant</a></li>
-            </ul>
-        </div>
-        <i class="fa fa-bars" onclick="showMenu()"></i>
-    </nav>
+                        <li><a href="/pages/elephant.html">Wild Elephant</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>Sri Lankan Wild Elephant</h1>
+                <p>Sri Lanka is well known for being one of the most significant countries serving
+                    a home for a large number of wild elephants. As a country rich in biodiversity,
+                    there is no scarce for wildlife in Sri Lanka. Wild elephants are one such treasure
+                    Sri Lanka possesses. Learn some interest facts about these Lankan elephants below.
+                </p>
+        </section>
+    </section>
 
-    
+
     <!-------JavaScript for toggle menu-------->
     <script>
         var navLinks = document.getElementById("navLinks");
