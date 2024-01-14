@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sri Lankan Wildlife</title>
+    <title>Sri Lanka: A haven for Wildlife</title>
     <link rel="stylesheet" href="\css\main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,18 +13,25 @@
     <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
         integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+        <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" a href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
     <section>
-        <!-- Navigation bar -->
+        <!-- Navigation bar 
         <section class="header">
             <nav>
                 <a href="index.html"><img src="/images/logo.png"></a>
                 <div class="nav-links" id="navLinks">
                     <i class="fa fa-times" onclick="hideMenu()"></i>
                     <ul>
-                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/index.html" class="active">Home</a></li>
 
                         <li><a href="/pages/intro.html">Introduction</a></li>
 
@@ -32,19 +39,46 @@
 
                         <li><a href="/pages/leopard.html">Leopard</T></a></li>
 
-                        <li><a href="/pages/animals.html">Animals in Sri Lanka</T></a></li>
+                        <li><a href="/pages/animals.html">Indigenous Animals</T></a></li>
+                           <ul>
+                                <li><a href="/pages/yala.html">Yala National Park</a></li>
+                                <li><a href="/pages/wilpattu.html">Wilpattu National Park</a></li>
+                            </ul> 
 
                         <li><a href="/pages/elephant.html">Wild Elephant</a></li>
                     </ul>
                 </div>
-                <i class="fa fa-bars" onclick="showMenu()"></i>
-            </nav>
+                 <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav> -->
+
+
+            <header class="header">
+                <nav class="logo">
+                    <a href="index.html"><img src="/images/logo.png"></a>
+                </nav>
+                <nav class="navigation">
+                    <input type="checkbox" class="toggle-menu">
+                    <nav class="hamburger"></nav>
+                    <ul class="menu">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./pages/intro.html">Introduction</a></li>
+                        <li><a href="./pages/dept.html">Department of Wildlife Conservation</a></li>
+                        <li><a href="./pages/leopard.html">Leopard</a></li>
+                        <li><a href="./pages/animals.html">Indigenous Animals</a></li>
+                        <li><a href="./pages/elephant.html">Wild Elephant</a></li>
+                    </ul> 
+                </nav>
+            </header>
 
             <div class="text-box">
-                <h1>Discover Sri Lankan Wildlife</h1>
-                <p>Sri Lanka, an Indian Ocean gem, hosts diverse and endemic wildlife in lush rainforests,
-                    national parks, and coastal areas. From elusive leopards <br> to vibrant birdlife, the island's
-                    biodiversity makes it a captivating destination for wildlife enthusiasts and nature lovers.
+                <h1>Sri Lankan Wildlife</h1>
+                <p>Sri Lankan wildlife is renowned for its diverse and unique species, including 
+                    <ol><li>Asian elephants, </li>
+                         <li>elusive leopards, and </li> 
+                         <li>vibrant birdlife. </li>
+                    </ol>
+                         The island's rich biodiversity is a result of varied ecosystems, 
+                    from lush rainforests to coastal areas, making it a paradise for nature lovers.
                 </p>
                 <a href="" class="explore">Explore More</a>
             </div>
@@ -87,24 +121,43 @@
     </section>
 
     <footer>
-        <p>&copy; 2024 Sri Lankan Wildlife. All rights reserved.</p>
+        <div class="container">
+           <div class="row">
+                <div class="footer-col">
+                   <h4>Contact</h4>
+                   <ul>
+                    <li>+94-777112245</li>
+                    <li>wildlifeinsrilanka@email.com</li>
+                   </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="intro.html">Introduction</a></li>
+                     <li><a href="dept.html">Department of Wildlife Conservation</a></li>
+                     <li><a href="leopard.html">Lankan Leopard</a></li>
+                     <li><a href="animals.html">Indigenous Animals</a></li>
+                     <li><a href="elephant.html">Wild Elepant</a></li>
+                    </ul>
+                 </div>
+                 <div class="footer-col">
+                    <h4>Social</h4>
+                    <div class="social-link">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    
+                 </div>
+            </div>
+            <br><br><br>
+            <p>&copy; 2024 Sri Lankan Wildlife. All rights reserved.</p>
+        </div>
+        
         <img src="">
     </footer>
-
-    <!-------JavaScript for toggle menu--------
-    <script>
-        var navLinks = document.getElementById("navLinks");
-        function showMenu() {
-            navLinks.style.right = "0"
-        }
-        var navLinks = document.getElementById("navLinks");
-        function hideMenu() {
-            navLinks.style.right = "-200px";
-
-        }
-    </script> -->
-
-
 </body>
 
 </html>

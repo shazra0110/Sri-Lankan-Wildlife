@@ -16,12 +16,14 @@
 </head>
 
 <body>
-    <!-- Page Navigation -->
+    <!-- Page Navigation 
     <section class="header">
         <nav>
-            <a href="leopard.html"><img src="/images/logo.png"></a>
+            <section id="logooo">
+                
+            <img src="/images/logo.png" class="logo">
+        </section>
             <div class="nav-links" id="navLinks">
-                <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="/index.html">Home</a></li>
 
@@ -36,29 +38,47 @@
                     <li><a href="/pages/elephant.html">Wild Elephant</a></li>
                 </ul>
             </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
-
-        <div clas="text-box">
+ <section> -->
+    <header class="header">
+        <nav class="logo">
+            <a href="index.html"><img src="/images/logo.png"></a>
+        </nav>
+        <nav class="navigation">
+            <input type="checkbox" class="toggle-menu">
+            <nav class="hamburger"></nav>
+            <ul class="menu">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./pages/intro.html">Introduction</a></li>
+                <li><a href="./pages/dept.html">Department of Wildlife Conservation</a></li>
+                <li><a href="./pages/leopard.html">Leopard</a></li>
+                <li><a href="./pages/animals.html">Indigenous Animals</a></li>
+            </ul> 
+        </nav>
+        <div class="text-box">
             <h1>Sri Lankan Leopard</h1>
             <p>The Sri Lankan leopard is a leopard subspecies native to Sri Lanka. It was first
                 described in 1956 by Sri Lankan zoologist Paules Edward Pieris Deraniyagala.
             </p>
         </div>
 
+
         <section id="venues">
             <h2>Leopard Habitats in Sri Lanka</h2>
             <p>Explore the diverse landscapes where Sri Lankan leopards thrive.</p>
-
+        </section>
             <!-- Venue 1 -->
             <div class="container">
                 <img src="\images\yala-leopard2.jpg" alt="yala">
                 <div class="overlay">
-                    <div class="content">
-                        <h3>Yala National Park</h3>
+
+
+                    <section id="venues_yala">
+                        <h2>Yala National Park</h2>
                         <p>Located in the southeastern part of the island, Yala National Park is renowned for its rich
                             biodiversity and is a prime habitat for Sri Lankan leopards.
                         </p>
+                    </section>
                     </div>
                 </div>
             </div>
@@ -67,8 +87,8 @@
             <div class="container">
                 <img src="\images\yala-leopard.jpg" alt="Wilpattu">
                 <div class="overlay">
-                    <div class="content">
-                        <h3>Wilpattu National Park</h3>
+                    <section id="venues_yala">
+                        <h2>Wilpattu National Park</h2>
                         <p>As the largest national park in Sri Lanka, Wilpattu is home to a significant population of
                             leopards. Its varied ecosystems provide an ideal environment for these magnificent creatures.
                         </p>
@@ -79,56 +99,56 @@
 
             <!-- Venue 3 -->
             <div class="container">
-                <img src="\images\horton-plains01.jpg" alt="horton plains">
+                <img src="\images\threat2.jpeg" alt="horton plains">
                 <div class="overlay">
-                    <div class="content">
-                        <h3>Wilpattu National Park</h3>
-                        <p>Nestled in the central highlands, Horton Plains is known for its montane grasslands and cloud
+                    <section id="venues_yala">
+                        <h2>Wilpattu National Park</h2>
+                        <p>NNestled in the central highlands, Horton Plains is known for its montane grasslands and cloud
                             forests. It serves as another important habitat for the Sri Lankan leopard.
                         </p>
                     </div>
                 </div>
             </div>
             
-        </section>
 
-        <section id="threats">
-            <h2>Threats to Sri Lankan Leopards</h2>
-
-            <!-- Threat 1 -->
-            <div class="banner-id">
-                <img src="\images\threat2.jpeg" alt="Threat 1">
-                <p><strong>Human-Wildlife Conflict</strong></p>
-                <p>Human-leopard conflicts arise due to habitat encroachment. This can lead to leopard attacks on
-                    livestock, resulting in retaliatory killings. Conservation efforts include community awareness
-                    and the implementation of protective measures.
-                </p>
-            </div>
-
-            <!-- Threat 2 -->
-            <div class="banner-id">
-                <img src="\images\threat3.jpg">
-                <!-- <div class="banner-text"> -->
-                    <h4>Illegal Wildlife Trade</h4>
-                    <p>Leopards face threats from illegal wildlife trade for their skins and body parts. Conservation
-                        initiatives involve law enforcement, public education, and support for anti-poaching efforts.
-                    </p>
+            <div class="container">
+                <img src="\images\horton-plains01.jpg" alt="horton plains">
+                <div class="overlay">
+                    <section id="venues_yala">
+                        <h2>Wilpattu National Park</h2>
+                        <p>NNestled in the central highlands, Horton Plains is known for its montane grasslands and cloud
+                            forests. It serves as another important habitat for the Sri Lankan leopard.
+                        </p>
+                    </div>
                 </div>
             </div>
-            <p><a href="https://www.leopocon.org/" target="_blank">Help save a leopard.</a></p>
 
-        </section>
+            <div class="container">
+                <img src="\images\threat3.jpg" alt="horton plains">
+                <div class="overlay">
+                    <section id="venues_yala">
+                        <h2>Wilpattu National Park</h2>
+                        <p>NNestled in the central highlands, Horton Plains is known for its montane grasslands and cloud
+                            forests. It serves as another important habitat for the Sri Lankan leopard.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
 
+
+<section id="footer-leopard">
         <footer>
             <p>&copy; 2024 Sri Lankan Leopard Conservation. All rights reserved.</p>
         </footer>
+    </section>
 </body>
 
 </html>
 
 
 
-<!-------JavaScript for toggle menu-------->
+<!-------JavaScript for toggle menu------
 <script>
     var navLinks = document.getElementById("navLinks");
     function showMenu() {
@@ -139,7 +159,7 @@
         navLinks.style.right = "-200px";
 
     }
-</script>
+</script> -->
 
 </body>
 

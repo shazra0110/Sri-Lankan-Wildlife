@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SL Wildlife Elephant</title>
+    <title>Sri Lankan Elephant</title>
     <link rel="stylesheet" href="\css\elephant.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,8 +19,7 @@
 
 <body>
     <section>
-        <section class="header">
-            <!-- Page Navigation -->
+            <!-- Page Navigation 
             <nav>
                 <a href="index.html"><img src="images/logo.png"></a>
                 <div class="nav-links" id="navLinks">
@@ -40,19 +39,69 @@
                     </ul>
                 </div>
                 <i class="fa fa-bars" onclick="showMenu()"></i>
-            </nav>
-            <div class="text-box">
-                <h1>Sri Lankan Wild Elephant</h1>
-                <p>Sri Lanka is well known for being one of the most significant countries serving
-                    a home for a large number of wild elephants. As a country rich in biodiversity,
-                    there is no scarce for wildlife in Sri Lanka. Wild elephants are one such treasure
-                    Sri Lanka possesses. Learn some interest facts about these Lankan elephants below.
-                </p>
+            </nav> -->
+            <header class="header">
+                <nav class="logo">
+                    <a href="index.html"><img src="/images/logo.png"></a>
+                </nav>
+                <nav class="navigation">
+                    <input type="checkbox" class="toggle-menu">
+                    <nav class="hamburger"></nav>
+                    <ul class="menu">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./pages/intro.html">Introduction</a></li>
+                        <li><a href="./pages/dept.html">Department of Wildlife Conservation</a></li>
+                        <li><a href="./pages/leopard.html">Leopard</a></li>
+                        <li><a href="./pages/animals.html">Indigenous Animals</a></li>
+                        <li><a href="./pages/elephant.html">Wild Elephant</a></li>
+                    </ul> 
+                </nav>
+            </header>
+
+
+            <head>
+                <h1>Elephants - The Gentle Giants</h1>
+            </head>
         </section>
-    </section>
 
 
-    <!-------JavaScript for toggle menu-------->
+        <body>
+            <main>
+                <section class="main-image">
+                    <img src="/images/elephant.jpeg" alt="Family of elephants in the wild">
+                </section>
+
+                <section class="about">
+                    <h2>About Elephants</h2>
+                    <p>Elephants are the largest land animals on Earth, known for their intelligence, social
+                        behavior, and impressive size. They are found in Africa and Asia, and live in a variety of
+                        habitats, including grasslands, forests, and savannas.</p>
+                </section>
+
+                <section class="characteristics">
+                    <h2>Characteristics of Elephants</h2>
+                    <ul>
+                        <li>Massive size: Adults can weigh up to 6 tons and reach heights of 13 feet.</li>
+                        <li>Distinctive trunk: Used for breathing, smelling, drinking, and grasping objects.</li>
+                        <li>Large tusks: Made of ivory, used for digging, foraging, and defense (in African
+                            elephants).</li>
+                        <li>Thick skin: Protects them from the sun and insects.</li>
+                        <li>Highly intelligent: Known for their problem-solving abilities and strong social bonds.
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="conservation">
+                    <h2>Conservation of Elephants</h2>
+                    <p>Elephants face many threats, including habitat loss, poaching for ivory, and conflict with
+                        humans. Conservation efforts are essential to protect these magnificent creatures.</p>
+                    <p>You can help by supporting organizations working to conserve elephants, raising awareness
+                        about the threats they face, and making responsible choices as a consumer.</p>
+                </section>
+
+
+
+                <!-------JavaScript for toggle menu-----
     <script>
         var navLinks = document.getElementById("navLinks");
         function showMenu() {
@@ -63,8 +112,8 @@
             navLinks.style.right = "-200px";
 
         }
-    </script>
+    </script> --->
 
-</body>
+        </body>
 
 </html>
