@@ -17,12 +17,11 @@
 
 <body>
     <section>
-        <!-- Page Navigation -->
+        <!-- Page Navigation
         <section class="header">
             <nav>
                 <a href="index.html"><img src="images/logo.png"></a>
                 <div class="nav-links" id="navLinks">
-                    <i class="fa fa-times" onclick="hideMenu()"></i>
                     <ul>
                         <li><a href="/index.html">Home</a></li>
 
@@ -37,69 +36,74 @@
                         <li><a href="/pages/elephant.html">Wild Elephant</a></li>
                     </ul>
                 </div>
-                <i class="fa fa-bars" onclick="showMenu()"></i>
-            </nav>
+            </nav> -->
+            <header class="header">
+                <nav class="logo">
+                    <a href="index.html"><img src="/images/logo.png"></a>
+                </nav>
+                <nav class="navigation">
+                    <input type="checkbox" class="toggle-menu">
+                    <nav class="hamburger"></nav>
+                    <ul class="menu">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./pages/intro.html">Introduction</a></li>
+                        <li><a href="./pages/dept.html">Department of Wildlife Conservation</a></li>
+                        <li><a href="./pages/leopard.html">Leopard</a></li>
+                        <li><a href="./pages/animals.html">Indigenous Animals</a></li>
+                        <li><a href="./pages/elephant.html">Wild Elephant</a></li>
+                    </ul> 
+                </nav>
+            </header>
 
             <div class="text-box">
                 <h1>Department of Wildlife Conservation</h1>
-                <p>Wildlife conservation is crucial to protect wild lives in Sri Lanka and ensure their safety and bla
-                    bla bla bla bla
+                <p>The Wildlife Conservation Department of Sri Lanka is a dedicated government agency focused 
+                    on preserving the nation's rich biodiversity. Through proactive conservation efforts, habitat management,
+                     and community engagement, the department safeguards diverse ecosystems and ensures the sustainable coexistence of wildlife and human populations.
                 </p>
                 <a href="https://www.dwc.gov.lk/">Department of Wildlife of Conservation in Sri Lanka</a>
             </div>
 
         </section>
 
-        <!-------JavaScript for toggle menu-----
-        <script>
-            var navLinks = document.getElementById("navLinks");
-            function showMenu() {
-                navLinks.style.right = "0"
-            }
-            var navLinks = document.getElementById("navLinks");
-            function hideMenu() {
-                navLinks.style.right = "-200px";
-
-            }
-        </script> -->
 
         <section class="grid-wrapper">
-            <section class="grip-head"><h1>Heritance NEGOMBO</h1>
+            <section class="grip-head"><h1>Animal GALLERY</h1>
             </section>
             <section>
-                <img src="./n1.jpg" alt="1">
+                <img src="/images/blue-magpie.jpg" alt="1">
             </section>
             <section>
-                <img src="./n2.jpg" alt="2">
+                <img src="/images/elephant-hd2.jpg" alt="2">
             </section>
             <section>
-                <img src="./n3.jpg" alt="3">
+                <img src="/images/grey-elephant.jpg" alt="3">
             </section>
             <section>
-                <img src="./n4.jpg" alt="4">
+                <img src="/images/bird.jpg" alt="4">
             </section>
             <section>
-                <img src="./n5.jpg" alt="5">
+                <img src="/images/lion.jpeg" alt="5">
             </section>
             <section>
-                <img src="./n6.jpg" alt="6">
+                <img src="/images/monkey.png" alt="6">
             </section>
             <section>
-                <img src="./n7.jpg" alt="7">
+                <img src="/images/leopard2.jpg" alt="7">
             </section>
             <section>
-                <img src="./n8.jpg" alt="8">
+                <img src="/images/peacock.jpeg" alt="8">
             </section>
             <section>
-                <img src="./n9.jpg" alt="9">
+                <img src="/images/lion.jpeg" alt="9">
             </section>
      
             <section>
-                <img src="./11.jpg" alt="11">
+                <img src="/images/owl.jpg" alt="11">
             </section>
             
             <section>
-                <img src="./12.jpg" alt="12">
+                <img src="/images/kingfisher.webp" alt="12">
             </section>
             <section class="grip-head"><h1>Heritance <br>TEA FACTORY</h1>
             </section>
@@ -175,5 +179,43 @@
             </section>
 
 </body>
+<footer>
+    <div class="container">
+       <div class="row">
+            <div class="footer-col">
+               <h4>Contact</h4>
+               <ul>
+                <li>+94-777112245</li>
+                <li>wildlifeinsrilanka@email.com</li>
+               </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="intro.html">Introduction</a></li>
+                 <li><a href="dept.html">Department of Wildlife Conservation</a></li>
+                 <li><a href="leopard.html">Lankan Leopard</a></li>
+                 <li><a href="animals.html">Indigenous Animals</a></li>
+                 <li><a href="elephant.html">Wild Elepant</a></li>
+                </ul>
+             </div>
+             <div class="footer-col">
+                <h4>Social</h4>
+                <div class="social-link">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+                
+             </div>
+        </div>
+        <br><br><br>
+        <p>&copy; 2024 Sri Lankan Wildlife. All rights reserved.</p>
+    </div>
+    
+    <img src="">
+</footer>
 
 </html>
