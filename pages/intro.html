@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Introduction to Sri Lankan Wildlife</title>
-    <link rel="stylesheet" href="/css/intro.css">
+    <link rel="stylesheet" href="\css\intro.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Mulish:wght@200&display=swap"
@@ -13,103 +13,80 @@
     <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
         integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
-</head>
-
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" a href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
-    <div class="header">
-        <!-- Page Navigation
-        <nav>
+    <header class="header">
+        <nav class="logo">
             <a href="index.html"><img src="/images/logo.png"></a>
-            <div class="nav-links" id="navLinks">
-                <i class="fa fa-times" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="/index.html">Home</a></li>
+        </nav>
+        <nav class="navigation">
+            <input type="checkbox" class="toggle-menu">
+            <nav class="hamburger"></nav>
+            <ul class="menu">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./pages/intro.html">Introduction</a></li>
+                <li><a href="./pages/dept.html">Department of Wildlife Conservation</a></li>
+                <li><a href="./pages/leopard.html">Leopard</a></li>
+                <li><a href="./pages/animals.html">Indigenous Animals</a></li>
+                <li><a href="./pages/elephant.html">Wild Elephant</a></li>
+            </ul>
+        </nav>
+    </header>
 
-                    <li><a href="/pages/intro.html">Introduction</a></li>
+    <div class="text-box">
+        <h1>Introduction</h1>
+        <p>Explore Sri Lanka's diverse wildlife havens—Sinharaja,
+            Udawala, Kumana, places that serve as homes to leopards, elephants, and unique
+            flora respectively.
+        </p>
+    </div>
 
-                    <li><a href="/pages/dept.html">Department of Wildlife Conservation</a></li>
-
-                    <li><a href="/pages/leopard.html">Leopard</T></a></li>
-
-                    <li><a href="/pages/animals.html">Animals in Sri Lanka</T></a></li>
-
-                    <li><a href="/pages/elephant.html">Wild Elephant</a></li>
-                </ul>
-            </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
-        </nav> -->
-        <header class="header">
-            <nav class="logo">
-                <a href="index.html"><img src="/images/logo.png"></a>
-            </nav>
-            <nav class="navigation">
-                <input type="checkbox" class="toggle-menu">
-                <nav class="hamburger"></nav>
-                <ul class="menu">
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./pages/intro.html">Introduction</a></li>
-                    <li><a href="./pages/dept.html">Department of Wildlife Conservation</a></li>
-                    <li><a href="./pages/leopard.html">Leopard</a></li>
-                    <li><a href="./pages/animals.html">Indigenous Animals</a></li>
-                    <li><a href="./pages/elephant.html">Wild Elephant</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <!---------Introduction----------->
-
-        <div class="text-box">
-            <h1>Introduction</h1>
-            <p>Explore Sri Lanka's diverse wildlife havens—Sinharaja,
-                Udawala, Kumana—home to leopards, elephants, and unique
-                flora. A nature lover's paradise.
-            </p>
-        </div>
-
-        <div class="container">
-            <div class="card">
-                <div class="sub-col">
-                    <a href="#">
-                        <img src="/images/i6.jpg"></a>
-                    <h2>Udawalawa</h2>
-                    <hr>
-                    <p><br>Udawalawe National Park is a national park on the boundary of Sabaragamuwa and Uva Provinces
-                        in Sri Lanka.
-                        The park was created to provide a sanctuary for wild animals displaced by the construction of
-                        the
-                        Udawalawe Reservoir on the Walawe River, as well as to protect the catchment of the reservoir.
-                    </p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="sub-col">
-                    <a href="#">
-                        <img src="/images/elephant.jpeg"></a>
-                    <h2>Sinharaja Forest Reserve</h2>
-                    <hr>
-                    <p><br>Sinharaja Forest Reserve is a forest reserve and a biodiversity hotspot in Sri Lanka. It is
-                        of international
-                        significance and has been designated a Biosphere Reserve and World Heritage Site by UNESCO.</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="sub-col">
-                    <a href="#">
-                        <img src="/images/i2.jpg"></a>
-                    <h2>Kumana National Park</h2>
-                    <hr>
-                    <p><br>Kumana National Park in Sri Lanka is renowned for its avifauna, particularly its large flocks
-                        of migratory
-                        waterfowl and wading birds. The park is 391 kilometres (243 mi) southeast of Colombo on Sri
-                        Lanka's southeastern coast.</p>
-                    </p>
-                </div>
+    <div class="container">
+        <div class="card">
+            <div class="sub-col">
+                <a href="#">
+                    <img src="/images/i6.jpg"></a>
+                <h2>Udawalawa</h2>
+                <hr>
+                <p><br>Udawalawe National Park is a national park on the boundary of Sabaragamuwa and Uva Provinces
+                    in Sri Lanka.
+                    The park was created to provide a sanctuary for wild animals displaced by the construction of
+                    the
+                    Udawalawe Reservoir on the Walawe River, as well as to protect the catchment of the reservoir.
+                </p>
             </div>
         </div>
+
+        <div class="card">
+            <div class="sub-col">
+                <a href="#">
+                    <img src="/images/elephant.jpeg"></a>
+                <h2>Sinharaja Forest Reserve</h2>
+                <hr>
+                <p><br>Sinharaja Forest Reserve is a forest reserve and a biodiversity hotspot in Sri Lanka. It is
+                    of international
+                    significance and has been designated a Biosphere Reserve and World Heritage Site by UNESCO.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="sub-col">
+                <a href="#">
+                    <img src="/images/i2.jpg"></a>
+                <h2>Kumana National Park</h2>
+                <hr>
+                <p><br>Kumana National Park in Sri Lanka is renowned for its avifauna, particularly its large flocks
+                    of migratory
+                    waterfowl and wading birds. The park is 391 kilometres (243 mi) southeast of Colombo on Sri
+                    Lanka's southeastern coast.</p>
+                </p>
+            </div>
+        </div>
+    </div>
     </div>
     <section id="summary-table">
 
@@ -188,6 +165,7 @@
             <br><br><br>
             <p>&copy; 2024 Sri Lankan Wildlife. All rights reserved.</p>
         </div>
+        <!-- Content source: Wikipedia and ChatGpt -->
     </footer>
 
 </body>

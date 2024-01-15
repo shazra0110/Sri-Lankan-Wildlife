@@ -109,7 +109,7 @@ nav img {
 .intro{
     min-height: 100vh ;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(/images/i6.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(/images/back.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -165,7 +165,7 @@ nav img {
     width: 260px;
     height: 260px;
     top: -60px;
-    
+    opacity: .5;
     box-shadow: 0px 5px 20px rgba (0,0,0,1.2);
 }
 .container.card.imgBx img{
@@ -250,7 +250,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url(/images/elephant3.jpg);
+    background-image: url(/images/back.jpg);
     background-position: center;    padding: 0 25px;
     transition: 0.3s;
     height: 100px;

@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     font-family: 'Lora', serif;
@@ -9,7 +9,6 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    
     background-size: cover;
     position: relative;
 }
@@ -80,7 +79,7 @@ nav img {
 
 .text-box p {
     /* margin: 10px 0 40px; */
-    font-size: 14px;
+    font-size: 18px;
     color: white;
 }
 
@@ -278,7 +277,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/images/elephant1.jpg);
+    background-image: url(/images/elephant3.jpg);
     background-position: center;    padding: 0 25px;
     transition: 0.3s;
     height: 100px;
@@ -433,4 +432,15 @@ footer {
         margin-top: -160%; 
         margin-left: 15%; 
     }
+}
+@media(max-width:767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 38px;
+    }
+}
+@media(max-width:567px){
+    .footer-col{
+        width: 100%;
+}
 }

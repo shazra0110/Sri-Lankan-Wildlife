@@ -12,7 +12,9 @@
     background-size: cover;
     position: relative;
 }
-
+hr{
+    display: block;
+}
 
 /* nav {
     display: flex;

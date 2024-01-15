@@ -13,136 +13,109 @@
     <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
         integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
-        <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
-    <link rel="stylesheet"
-    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" a href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
+    <header class="header">
+        <nav class="logo">
+            <a href="index.html"><img src="/images/logo.png"></a>
+        </nav>
+        <nav class="navigation">
+            <input type="checkbox" class="toggle-menu">
+            <nav class="hamburger"></nav>
+            <ul class="menu">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./pages/intro.html">Introduction</a></li>
+                <li><a href="./pages/dept.html">Department of Wildlife Conservation</a></li>
+                <li><a href="./pages/leopard.html">Leopard</a></li>
+                <li><a href="./pages/animals.html">Indigenous Animals</a></li>
+                <li><a href="./pages/elephant.html">Wild Elephant</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="text-box">
+        <h1>Sri Lankan Wildlife</h1>
+        <p>Sri Lankan wildlife is renowned for its diverse and unique species hidden in the waves of the coastal
+            areas,
+            in the silence of the canopies and the vast blues of the skies.
+        </p>
+        <a href="#explore-more" class="explore">Explore More</a>
+    </div>
+    </section>
+
     <section>
-        <!-- Navigation bar 
-        <section class="header">
-            <nav>
-                <a href="index.html"><img src="/images/logo.png"></a>
-                <div class="nav-links" id="navLinks">
-                    <i class="fa fa-times" onclick="hideMenu()"></i>
-                    <ul>
-                        <li><a href="/index.html" class="active">Home</a></li>
-
-                        <li><a href="/pages/intro.html">Introduction</a></li>
-
-                        <li><a href="/pages/dept.html">Department of Wildlife Conservation</a></li>
-
-                        <li><a href="/pages/leopard.html">Leopard</T></a></li>
-
-                        <li><a href="/pages/animals.html">Indigenous Animals</T></a></li>
-                           <ul>
-                                <li><a href="/pages/yala.html">Yala National Park</a></li>
-                                <li><a href="/pages/wilpattu.html">Wilpattu National Park</a></li>
-                            </ul> 
-
-                        <li><a href="/pages/elephant.html">Wild Elephant</a></li>
-                    </ul>
-                </div>
-                 <i class="fa fa-bars" onclick="showMenu()"></i>
-            </nav> -->
-
-
-            <header class="header">
-                <nav class="logo">
-                    <a href="index.html"><img src="/images/logo.png"></a>
-                </nav>
-                <nav class="navigation">
-                    <input type="checkbox" class="toggle-menu">
-                    <nav class="hamburger"></nav>
-                    <ul class="menu">
-                        <li><a href="./index.html">Home</a></li>
-                        <li><a href="./pages/intro.html">Introduction</a></li>
-                        <li><a href="./pages/dept.html">Department of Wildlife Conservation</a></li>
-                        <li><a href="./pages/leopard.html">Leopard</a></li>
-                        <li><a href="./pages/animals.html">Indigenous Animals</a></li>
-                        <li><a href="./pages/elephant.html">Wild Elephant</a></li>
-                    </ul> 
-                </nav>
-            </header>
-
-            <div class="text-box">
-                <h1>Sri Lankan Wildlife</h1>
-                <p>Sri Lankan wildlife is renowned for its diverse and unique species, including Asian elephants, elusive leopards, and vibrant birdlife.
-                  
-                    The island's rich biodiversity is a result of varied ecosystems, 
-                    from lush rainforests to coastal areas, making it a paradise for nature lovers.
+        <div class="row" id="explore-more">
+            <div class="sub-col">
+                <img src="images/Spinner-dolphin.jpg" class="responsive">
+                <h3>Coastal Guardians</h3>
+                <hr>
+                <p>
+                    Along Sri Lanka's pristine coasts, witness the fascinating
+                    world of marine life.
                 </p>
-                <a href="" class="explore">Explore More</a>
+                <p>The southern waters host majestic blue whales,
+                    playful dolphins, and vibrant coral reefs. Conservation efforts focus on sustaining
+                    these marine ecosystems, emphasizing responsible tourism and the importance
+                    of preserving the oceanic treasures surrounding the island.
+                </p>
             </div>
-        </section>
-        <section>
-            <h2>Wonders of Sri Lanka</h2>
-            <p>yyyyyyy
-            </p>
-        </section>
-        <section>
-            <div class="row">
-                <div class="sub-col">
-                    <img src="images/chameleon-with-leaf.jpeg" class="responsive">
-                    <h4>Biodiversity and Conservation</h4>
-                    <hr>
-                    <p>
-                        Sri Lanka's diverse wildlife, like the unique Sri Lankan elephant, highlights its ecological
-                        richness. Conservation is vital to protect endemic species and global biodiversity.
-                    </p>
-                </div>
-                <div class="sub-col">
-                    <img src="images/ducks.jpeg" class="responsive">
-                    <h4>Ecotourism and Economic Impact</h4>
-                    <hr>
-                    <p>
-                        From leopards in Yala to vibrant birdlife, Sri Lanka's wildlife fuels ecotourism, providing
-                        economic growth. Sustainable practices preserve ecosystems and benefit local communities.
-                    </p>
+            <div class="sub-col">
+                <img src="images/chameleon-with-leaf.jpeg" class="responsive">
+                <h3>Canopy Dwellers</h3>
+                <hr>
+                <p>
+                    Embark on a journey into Sri Lanka's lush rainforests, discovering a world of
+                    diverse canopy dwellers.
+                </p>
+                <p> Explore the intricate ecosystems of Sinharaja Forest
+                    Reserve and Horton Plains National Park, where endemic species, from colorful frogs to elusive
+                    chameleons, thrive. Conservation
+                    initiatives protect these unique habitats and their extraordinary inhabitants.
+                </p>
 
-                </div>
-                <div class="sub-col">
-                    <img src="images/moose.jpeg" class="responsive">
-                    <h4>Ecosystem Services and Human Well-being</h4>
-                    <hr>
-                    <p>
-                        Sri Lanka's wildlife delivers vital services—air and water purification, climate regulation.
-                        Preserving habitats is essential for human well-being, maintaining harmony between
-                        development and environmental conservation.
-                    </p>
-                </div>
             </div>
-        </section>
-
+            <div class="sub-col">
+                <img src="/images/birds2.jpg" class="responsive">
+                <h3>Avian Symphony</h3>
+                <hr>
+                <p>
+                    Sri Lanka's skies teem with over 450 bird species, from the iconic junglefowl to<a
+                        href="/pages/animals.html"> endemic
+                        parakeets</a> and migratory wonders. </p>
+                <p>Sinharaja Forest Reserve and Horton Plains National Park
+                    provide sanctuaries for birdwatchers, offering glimpses into the island's avian diversity.
+                    Conservation efforts safeguard these winged inhabitants and their vital ecological contributions.
+                </p>
+            </div>
+        </div>
     </section>
 
     <footer>
         <div class="container">
-           <div class="row">
+            <div class="row">
                 <div class="footer-col">
-                   <h4>Contact</h4> <br>
-                   <ul>
-                    <li>+94-117112245</li> <br>
-                    <li>wildlifeinsrilanka@gmail.com</li>
-                   </ul>
+                    <h4>Contact</h4> <br>
+                    <ul>
+                        <li>+94-117112245</li> <br>
+                        <li>wildlifeinsrilanka@gmail.com</li>
+                    </ul>
                 </div>
                 <div class="footer-col">
                     <h4>Quick Links</h4> <br>
                     <ul>
-                     <li><a href="index.html">Home</a></li> <br>
-                     <li><a href="/pages/intro.html">Introduction</a></li> <br>
-                     <li><a href="/pages/dept.html">Department of Wildlife Conservation</a></li> <br>
-                     <li><a href="/pages/leopard.html">Lankan Leopard</a></li> <br>
-                     <li><a href="/pages/">Indigenous Animals</a></li> <br>
-                     <li><a href="/pages/elephant.html">Wild Elepant</a></li> <br>
+                        <li><a href="index.html">Home</a></li> <br>
+                        <li><a href="/pages/intro.html">Introduction</a></li> <br>
+                        <li><a href="/pages/dept.html">Department of Wildlife Conservation</a></li> <br>
+                        <li><a href="/pages/leopard.html">Lankan Leopard</a></li> <br>
+                        <li><a href="/pages/">Indigenous Animals</a></li> <br>
+                        <li><a href="/pages/elephant.html">Wild Elepant</a></li> <br>
                     </ul>
-                 </div>
-                 <div class="footer-col">
+                </div>
+                <div class="footer-col">
                     <h4>Social</h4> <br>
                     <div class="social-link">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -150,12 +123,13 @@
                         <a href="#"><i class="fab fa-twitter"></i></a>
                         <a href="#"><i class="fab fa-linkedin"></i></a>
                     </div>
-                    
-                 </div>
+
+                </div>
             </div>
             <br><br><br>
             <p>&copy; 2024 Sri Lankan Wildlife. All rights reserved.</p>
         </div>
+        <!-- Content source: Wikipedia and ChatGpt -->
     </footer>
 </body>
 
