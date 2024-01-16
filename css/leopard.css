@@ -76,8 +76,8 @@ nav{
     /* margin: 10px 0 40px; */
     font-size: 110%;
     color: black;
-    padding-bottom: 5%;
-    padding-top: 5%;
+    /* padding-bottom: 5%; 
+    padding-top: .2%; */
 
 }
 
@@ -160,8 +160,9 @@ header {
     text-align: center;
 }*/
 
-h2 {
-    color: #45aaf2;
+h1 {
+    color: #424d06;
+    padding-top: 20%;
 }
 
 img {

@@ -197,6 +197,12 @@ h4 {
         width: 100%;
         height: auto;
     }
+    .logo a img{
+        display: block;
+        width: 150px;
+        height: 100px;
+        margin-top: -135%; 
+    }
 }
 
 /* FOOTER */
@@ -279,7 +285,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url(/images/elephant3.jpg);
+    background-image: url(/images/elephant-blur-bg.jpeg);
     background-position: center;    padding: 0 25px;
     transition: 0.3s;
     height: 100px;
@@ -294,6 +300,8 @@ footer {
 } */
 .logo a{
     display: block;
+    
+   
 }
 .logo a img{
     display: block;
