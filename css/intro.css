@@ -423,69 +423,96 @@ footer {
     color: white;
     text-align: center;
     padding: 1em 0;
-    /* position:absolute; */
-    bottom: 0;
     width: 100%;
-    margin: auto;
 }
-.row{
+
+.row {
     display: flex;
     flex-wrap: wrap;
 }
-.footer-col{
+
+.footer-col {
     width: 25%;
     padding: 0 15px;
 }
-.footer-col h4::before{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    background: #ffc500;
-    height: 2px;
-    box-sizing: border-box;
-    width: 50px;
+
+.footer-col h4 {
+    border-bottom: 2px solid #ffc500;
+    padding-bottom: 5px; /* Adjust as needed */
+    margin-bottom: 10px; /* Adjust as needed */
 }
-.footer-col ul{
+
+.footer-col ul {
     list-style: none;
 }
-.footer-col ul li a{
+
+.footer-col ul li a {
     font-size: 16px;
     text-decoration: none;
     color: white;
     display: block;
-    transition: all .3s ease-in-out;
+    transition: color 0.3s ease;
 }
-.footer-col ul li a:hover{
+
+.footer-col ul li a:hover {
     color: white;
-    padding-left: 6px;
+    border-left: 6px solid transparent;
+    padding-left: 0; /* Remove padding */
 }
 
-
-.footer-col .social-link{
+.footer-col .social-link {
     display: inline-block;
     padding: 5px;
     height: 40px;
     width: 40px;
-    background: rgba(255,255,255,.2);
+    background: rgba(255, 255, 255, 0.2);
     margin: 0 10px 0 10px;
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
     color: #fff;
-    transition: all .5s ease;
+    transition: color 0.5s ease, background-color 0.5s ease;
 }
-.footer-col .social-link li{
+
+.footer-col .social-link li {
     display: inline-block;
     text-align: center;
     padding: 5px;
 }
-.footer-col .social-link i{
+
+.footer-col .social-link i {
     color: #fff;
     font-size: 25px;
 }
 
-
-.footer-col .social-link a:hover{
+.footer-col .social-link a:hover {
     color: rgb(185, 94, 94);
+    background-color: rgba(255, 255, 255, 0.5);
 }
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #bdc3c7;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #d5e5e5;
+}
+
+tbody tr:hover {
+    background-color: #a9dfbf;
+}
+

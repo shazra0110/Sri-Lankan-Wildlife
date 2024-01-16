@@ -68,8 +68,6 @@ nav{
 .text-box h1 {
     font-size: 62px;
     padding-top: 10%;
-    
-    
 }
 
 .text-box p {
@@ -80,8 +78,105 @@ nav{
     padding-top: .2%; */
 
 }
+/* sub-sections */
+.sub {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
 
-#venues h2{
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+/*
+p{
+    color:#0c0909;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}    
+*/
+
+/* SUB-SECTIONS */
+.row {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-col {
+    flex-basis: 33%;
+    background: #90998f;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.sub-col img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+}
+
+h4 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px o;
+}
+
+.sub-col:hover {
+    box-shadow: 0 0 20px 0 rgba(252, 255, 254, 0);
+}
+@media(max-width: 700px) {
+    .text-box h1 {
+        font-size: 20px;
+    }
+
+    .nav-links ul li {
+        display: block;
+    }
+
+    .nav-links {
+        position:absolute;
+        background: #91998f;
+        height: 100vw;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+
+    nav.fa {
+        display: block;
+        color: white;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .row img{
+        width: 100%;
+        height: auto;
+    }
+    .logo a img{
+        display: block;
+        width: 150px;
+        height: 100px;
+        margin-top: -135%; 
+    }
+}
+/* 
+#venues h1{
     color: black;
     padding-top: 15%;
     text-align: center;
@@ -103,12 +198,11 @@ nav{
     padding-top: 2%;
     padding-bottom: 2%;
 
-}
+} */
 
-#footer-leopard{
-    padding-top: 5%;
+/* #footer-leopard{
+    padding-top: 5%; */
 
-}
 
 /*nav.fa {
     display: none; 
@@ -267,13 +361,13 @@ footer {
     z-index:1;
     transition: 0.5s;
     margin-top: -65%;
-    
+    color: black;
 }
 .menu li{
     list-style-type: none;
 }
 .menu li a{
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     display: block;
     padding: 40px 25px;
