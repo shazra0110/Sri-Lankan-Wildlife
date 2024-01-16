@@ -8,7 +8,7 @@
 .header {
     min-height: 100vh ;
     width: 100%;
-    background-color: linear-gradient(rgba(4,9,30,0.7),rgba(255, 255, 255, 0.7)), url(/images/i5.jpg);
+    background-color: linear-gradient(rgba(4,9,30,0.7),rgba(255, 255, 255, 0.7)), url(images/i5.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -290,33 +290,7 @@ img {
     margin-bottom: 5px;
 }
 
-/* Responsive Design */
-@media(max-width: 700px) {
-    .text-box h1{
-        font-size: 100;
-    }
-    .nav-links ul li{
-        display: block;
-    }
-    .nav-links{
-        position: absolute;
-        background: #91998f;
-        height: 100vw;
-        width: 200px;
-        top: 0;
-        right: -200px;
-        text-align: left;
-        z-index: 2;
-        transition: 1s;
-    }
-    nav.fa{
-        display: block;
-        color: white;
-        margin: 10px;
-        font-size: 22px;
-        cursor: pointer;
-    }
-}
+
 footer {
     background-color: #333;
     color: white;
@@ -332,6 +306,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/images/leopard2.jpg);
     background-position: center;    padding: 0 25px;
     transition: 0.3s;
     height: 100px;
@@ -435,45 +410,7 @@ footer {
     transform: rotate(45deg);
     width: 30px;
 }
-@media screen and (max-width: 950px){
-    .navigation input:checked ~ .menu{
-        right: 0;
-        box-shadow: -20px 0 40px rgba(0,0,0,0.3);
-    }
-    .hamburger,
-    .toggle-menu{
-        display: block;
-        margin-top: -800PX;
-        
-    }
-    .header {
-        padding: 10px 20px;
-    }
-    .menu{
-        justify-content: start;
-        flex-direction: column;
-        align-items: center;
-        position: fixed;
-        top: 0;
-        right:-300px;
-        background: #1a2717;
-        width: 300px;
-        height: 100%;
-        margin-top: 4%;
-        
-    }
-    .menu ul{
-        margin-top: 5%;
-    }
-    .menu li{
-        width: 100%;
-    }
-    .menu li a{
-        padding: 30px;
-        font-size: 24px;
-        
-    }
-}
+
 /* FOOTER */
 footer {
     background-color: #333;
@@ -498,7 +435,6 @@ footer {
     position: absolute;
     left: 0;
     bottom: -10px;
-    background: #ffc500;
     height: 2px;
     box-sizing: border-box;
     width: 50px;
@@ -545,4 +481,82 @@ footer {
 
 .footer-col .social-link a:hover{
     color: rgb(185, 94, 94);
+}
+
+/* Responsive Design */
+@media(max-width: 700px) {
+    .text-box h1{
+        font-size: 100;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        background: #91998f;
+        height: 100vw;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+    nav.fa{
+        display: block;
+        color: white;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .row img{
+        width: 100%;
+        height: auto;
+    }
+    .logo a img{
+        display: block;
+        width: 150px;
+        height: 100px;
+        margin-top: -135%; 
+    }
+}
+
+@media screen and (max-width: 950px){
+    .navigation input:checked ~ .menu{
+        right: 0;
+        box-shadow: -20px 0 40px rgba(0,0,0,0.3);
+    }
+    .hamburger,
+    .toggle-menu{
+        display: block;
+        margin-top: -800PX;
+        
+    }
+    .header {
+        padding: 10px 20px;
+    }
+    .menu{
+        justify-content: start;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        right:-300px;
+        background: #1a2717;
+        width: 300px;
+        height: 100%;
+        margin-top: 4%;
+        
+    }
+    .menu ul{
+        margin-top: 5%;
+    }
+    .menu li{
+        width: 100%;
+    }
+    .menu li a{
+        padding: 30px;
+        font-size: 24px;
+        
+    }
 }
