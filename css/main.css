@@ -14,55 +14,6 @@
     position: relative;
 }
 
-/* nav {
-    display: flex;
-    padding: 2% 6%;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav img {
-    width: 150px;
-}
-
-.nav-links ul li {
-    list-style: none;
-    display: inline-block;
-    padding: 8px 12px;
-    position: relative;
-}
-
-.nav-links ul li a {
-    color: white;
-    text-decoration: aliceblue;
-    text-align: none;
-    font-size: 110%;
-}
-
-.nav-links ul li ::after {
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: #f44336;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-}
-
-.nav-links ul li:hover ::after {
-    width: 100%;
-}
-.header .nav-links ul li ul{
-    position: absolute;
-    left: 0;
-    width: 200px;
-    display: none;
-}
-.header .nav-links ul li:focus-within > ul,
-.header .nav-links ul li:hover > ul{
-    display: initial;
-} */
-
 .text-box {
     width: 90%;
     color: white;
@@ -171,7 +122,7 @@ h4 {
         font-size: 20px;
     }
 
-    .nav-links ul li {
+    /* .nav-links ul li {
         display: block;
     }
 
@@ -193,7 +144,7 @@ h4 {
         margin: 10px;
         font-size: 22px;
         cursor: pointer;
-    }
+    } */
 
     .row img {
         width: 100%;
@@ -211,7 +162,7 @@ h4 {
 
 
 /* NEW */
-.header {
+.header{
     position: relative;
     width: 100%;
     display: flex;
@@ -224,13 +175,6 @@ h4 {
     height: 100px;
 }
 
-
-/* .logo{
-    margin-left: 2%;
-    width: 20%;
-    height: 20%;
-    margin-top: 2%;
-} */
 .logo a {
     display: block;
 
@@ -538,6 +482,12 @@ footer {
 
 /* ABOUT */
 
+#about-main{
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 2%;
+}
+
 body .about {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
@@ -555,6 +505,7 @@ body .about {
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
+    
 }
 
 .about h2 {
@@ -562,14 +513,19 @@ body .about {
     margin-bottom: 20px;
 }
 
-.about ol,
-ul {
-    list-style: none;
+.about ol{
+    /* list-style: none; */
     padding: 0;
+    list-style-position: inside;
 }
 
 .about li {
     margin-bottom: 20px;
+    padding: 0;
+    margin: 0;
+}
+.about ul{
+    list-style-position: inside;
 }
 
 .about h3 {
