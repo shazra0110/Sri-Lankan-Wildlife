@@ -84,23 +84,6 @@ nav img {
     color: white;
 }
 
-.explore {
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    border: 1px solid white;
-    padding: 12px 34px;
-    font-size: 13px;
-    background: transparent;
-    position: relative;
-    cursor: pointer;
-}
-
-.explore:hover {
-    border: 1px solid rgb(7, 51, 7);
-    background: rgb(56, 207, 56);
-    transition: 1s;
-}
 
 nav.fa {
     display: none;
@@ -270,7 +253,7 @@ footer {
     color: rgb(185, 94, 94);
 }
 
-/* NEW */
+/* NAVIGATION BAR */
 .header{
     position: relative;
     width: 100%;
@@ -284,12 +267,6 @@ footer {
 }
 
 
-/* .logo{
-    margin-left: 2%;
-    width: 20%;
-    height: 20%;
-    margin-top: 2%;
-} */
 .logo a{
     display: block;
 }

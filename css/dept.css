@@ -60,22 +60,21 @@ nav img {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: black;
 }
 
 .text-box h1 {
     font-size: 62px;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .text-box p {
     /* margin: 10px 0 40px; */
     font-size: 18px;
-    color: rgb(12, 11, 11);
+    color: rgb(253, 247, 247);
 }
 .text-box a{
     font-size: 20px;
-    color: rgb(12, 11, 11);
+    color: rgb(255, 250, 250);
 }
 @media(max-width: 700px) {
     .text-box h1 {
@@ -106,6 +105,8 @@ nav img {
         cursor: pointer;
     }
 }
+
+
 /* FOOTER */
 footer {
     background-color: #333;
@@ -117,46 +118,53 @@ footer {
     width: 100%;
     margin: auto;
 }
-.row{
+
+.row {
     display: flex;
     flex-wrap: wrap;
 }
-.footer-col{
+
+.footer-col {
     width: 25%;
     padding: 0 15px;
+    margin: 5%  3% 2% 5%;
+    
 }
-.footer-col h4::before{
+
+.footer-col h4::before {
     content: '';
     position: absolute;
     left: 0;
     bottom: -10px;
-    background: #ffc500;
     height: 2px;
     box-sizing: border-box;
     width: 50px;
 }
-.footer-col ul{
+
+.footer-col ul {
     list-style: none;
 }
-.footer-col ul li a{
+
+.footer-col ul li a {
     font-size: 16px;
     text-decoration: none;
     color: white;
     display: block;
-    transition: all .3s ease;
+    transition: all .3s ease-in-out;
 }
-.footer-col ul li a:hover{
+
+.footer-col ul li a:hover {
     color: white;
     padding-left: 6px;
 }
 
 
-.footer-col .social-link{
+.footer-col .social-link {
     display: inline-block;
     padding: 5px;
     height: 40px;
     width: 40px;
-    background: rgba(255,255,255,.2);
+    background: rgba(255, 255, 255, .2);
     margin: 0 10px 0 10px;
     text-align: center;
     line-height: 40px;
@@ -164,24 +172,21 @@ footer {
     color: #fff;
     transition: all .5s ease;
 }
-.footer-col .social-link li{
+
+.footer-col .social-link li {
     display: inline-block;
     text-align: center;
     padding: 5px;
 }
-.footer-col .social-link i{
+
+.footer-col .social-link i {
     color: #fff;
     font-size: 25px;
 }
-.footer-col .social-link a:hover{
-    color: rgb(68, 67, 67);
-    background: #fff;
-}
-.map h1{
-    color: #816830;
-    padding: 3%;
-    display: block;
-    font-display: bold;
+
+
+.footer-col .social-link a:hover {
+    color: rgb(185, 94, 94);
 }
 /*photograph*/
 
