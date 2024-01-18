@@ -241,7 +241,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url(/elephant3.jpg);
+    background-image: url(elephant3.jpg);
     background-position: center;    padding: 0 25px;
     transition: 0.3s;
     height: 100px;
