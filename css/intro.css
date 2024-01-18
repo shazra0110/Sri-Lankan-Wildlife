@@ -99,12 +99,14 @@ nav img {
 
 .text-box h1{
     font-size: 62px;
+    padding-top: 25%;
 }
 
 .text-box p{
     /* margin: 10px 0 40px; */
     font-size: 25px;
     color: white;
+    padding-top: 10%;
 }
 
 .intro{
@@ -202,7 +204,7 @@ imgBx:hover img{
 }
 
 h1 {
-    color: #519b15;
+    color: #ffffff;
     font-size: 28px;
     justify-content: center;
     text-align: center;
@@ -360,6 +362,7 @@ body {
     z-index:1;
     transition: 0.5s;
     margin-top: -65%;
+    margin-right: 50PX;
     
 }
 .menu li{
@@ -370,7 +373,7 @@ body {
     text-decoration: none;
     display: block;
     padding: 40px 25px;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1;
     transition: 0.3s;
 }
