@@ -9,7 +9,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: url(/animals.jpg);
+    background-image: url(../animals.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
