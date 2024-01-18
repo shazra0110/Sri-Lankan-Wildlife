@@ -4,7 +4,7 @@
     font-family: 'Lora', serif;
     font-family: 'Mulish', sans-serif;
     box-sizing: border-box;
-    text-transform: capitalize;
+  
 }
 .header {
     min-height: 100vh;
@@ -19,7 +19,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url(/images/elephant3.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(27, 27, 27, 0.7)),url(/wilpattu-bg.jpg);
     background-position: center;    padding: 0 25px;
     transition: 0.3s;
     height: 100px;
@@ -186,6 +186,39 @@
         width: 100%;
 }
 }
+
+/* TEXT BOX */
+.text-box {
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 70px;
+    line-height: 160px;
+    color: transparent;
+    -webkit-text-stroke: 1px #464d44;
+    background-image: url(/back.png);
+    -webkit-background-clip: text ;
+    background-position: 0 0;
+    animation: back 2s linear infinite;
+}
+@keyframes back {
+    100% {
+        background-position: 2000px 0;
+    }
+}
+.text-box p {
+    /* margin: 10px 0 40px; */
+    font-size: 18px;
+    color: white;
+}
+
 /* FOOTER */
 footer {
     background-color: #333;
@@ -257,4 +290,41 @@ footer {
 
 .footer-col .social-link a:hover{
     color: rgb(185, 94, 94);
+}
+
+.map{
+    padding: 5%;
+}
+.map h1{
+    padding: 4%;
+    font-weight: bold;
+    color: rgb(48, 83, 34);
+    font-size: 28px;
+}
+
+.wilpattu {
+    text-align: center;
+    margin: 20px; 
+    padding: 5%;
+}
+
+
+.wilpattu h1 {
+    color: #ffd904; 
+}
+
+
+.wilpattu p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000000;
+}
+
+
+.wilpattu img {
+    max-width: 50%; 
+    max-height: 50%; 
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10px; 
 }

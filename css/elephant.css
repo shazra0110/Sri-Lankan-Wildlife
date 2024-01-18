@@ -4,8 +4,7 @@
     font-family: 'Lora', serif;
     font-family: 'Mulish', sans-serif;
     box-sizing: border-box;
-    text-transform: capitalize;
-}
+    
 .header {
     min-height: 100vh;
     width: 100%;
@@ -13,56 +12,6 @@
     background-size: cover;
     position: relative;
 }
-
-
-/* nav {
-    display: flex;
-    padding: 2% 6%;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav img {
-    width: 150px;
-}
-
-.nav-links ul li {
-    list-style: none;
-    display: inline-block;
-    padding: 8px 12px;
-    position: relative;
-}
-
-.nav-links ul li a {
-    color: white;
-    text-decoration: aliceblue;
-    text-align: none;
-    font-size: 110%;
-}
-
-.nav-links ul li ::after {
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: #f44336;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-}
-
-.nav-links ul li:hover ::after {
-    width: 100%;
-}
-.header .nav-links ul li ul{
-    position: absolute;
-    left: 0;
-    width: 200px;
-    display: none;
-}
-.header .nav-links ul li:focus-within > ul,
-.header .nav-links ul li:hover > ul{
-    display: initial;
-} */
 
 .text-box {
     width: 90%;
@@ -92,7 +41,7 @@ nav.fa {
 
 
 /* sub-sections */
-.sub {
+/* .sub {
     width: 80%;
     margin: auto;
     text-align: center;
@@ -112,7 +61,7 @@ p{
     line-height: 22px;
     padding: 10px;
 }    
-*/
+*
 .row {
     margin-top: 5%;
     margin-left: 5%;
@@ -145,7 +94,7 @@ h4 {
 }
 
 .sub-col:hover {
-    box-shadow: 0 0 20px 0 rgba(252, 255, 254, 0);
+    box-shadow: 0 0 20px 0 rgba(252, 255, 254, 0); */
 }
 @media(max-width: 700px) {
     .text-box h1 {
@@ -260,7 +209,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/images/elephant1.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(elephant1.jpg);
     background-position: center;    padding: 0 25px;
     transition: 0.3s;
     height: 100px;
@@ -410,3 +359,62 @@ footer {
         margin-left: 15%; 
     }
 }
+
+
+/* SUB-SECTIONS */
+.subsection {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.subsection img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 20%;
+}
+
+.card {
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    height: auto;
+}
+
+.sub-col {
+    padding: 20px;
+}
+
+.sub-col img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.container h1 {
+    color: #519b15;
+    font-size: 28px;
+    justify-content: center;
+    text-align: center;
+    padding: 3%;
+}
+h2{
+    justify-content: center;
+    text-align: center;
+    padding: 3%;
+    color: #6c794b;
+}
+
