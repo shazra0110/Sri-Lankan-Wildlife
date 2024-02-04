@@ -19,8 +19,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(27, 27, 27, 0.7)),url(/wilpattu-bg.jpg);
-    background-position: center;    padding: 0 25px;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(27, 27, 27, 0.7)),url(../wilpattu-bg.jpg);
+    background-position: center;    
+    padding: 0 25px;
     transition: 0.3s;
     height: 100px;
 }
@@ -203,7 +204,7 @@
     line-height: 160px;
     color: transparent;
     -webkit-text-stroke: 1px #464d44;
-    background-image: url(/back.png);
+    background-image: url(../back.png);
     -webkit-background-clip: text ;
     background-position: 0 0;
     animation: back 2s linear infinite;

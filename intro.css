@@ -3,6 +3,7 @@
     padding: 0;
     font-family:'Mulish', sans-serif;
     box-sizing: border-box;
+    overflow-x: hidden ;
 }
 
 /* .header {
@@ -18,7 +19,7 @@
 .header {
     min-height: 100vh ;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../back.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(./back.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -27,6 +28,10 @@
 img {
     width: 300px;
     color: white;
+}
+
+body {
+    overflow-x: hidden;
 }
 /*  #header {
     position: fixed;
@@ -109,14 +114,14 @@ nav img {
     padding-top: 10%;
 }
 
-.intro{
+/* .intro{
     min-height: 100vh ;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../back.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(./back.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
-}
+} */
 
 
 /* .container {
@@ -326,7 +331,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url(../back.jpg);
+    background-image: url(./back.jpg);
     background-position: center;    padding: 0 25px;
     transition: 0.3s;
     height: 100px;
